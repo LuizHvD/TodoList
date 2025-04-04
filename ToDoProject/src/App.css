@@ -3,33 +3,29 @@ header{
     color: white;
     text-align: center;
     width: 100%;
-    height: 6rem;
     padding: 20px 20px 20px 20px;
 
 }   
 
-.AddTask{
-    align-content: center;
-    color: black;
+
+.task-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+.AddTask, .AddTaskButton {
     padding: 10px 20px;
     border: 3px solid #4CAF50;
     cursor: pointer;
     border-radius: 8px;
+    margin-top: -40px;
+}
+
+.IconTitulo{
+    height: 22px;
     margin-right: 8px;
 }
 
-.AddTaskButton{
-    align-content: center;
-    color: black;
-    padding: 10px 20px;
-    border: 3px solid #4CAF50;
-    cursor: pointer;
-    border-radius: 8px;
-
-}
-
-.AddTaskButton, .AddTask{
-    margin-top: -50px;
-    
-    
-}
