@@ -1,0 +1,24 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.AddTask{
+    align-content: center;
+    color: black;
+    padding: 10px 20px;
+    border: 3px solid #4CAF50;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.AddTaskButton{
+    align-content: center;
+    color: black;
+    padding: 10px 20px;
+    border: 3px solid #4CAF50;
+    cursor: pointer;
+    border-radius: 8px;
+}
