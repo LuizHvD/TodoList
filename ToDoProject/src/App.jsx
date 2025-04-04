@@ -8,7 +8,7 @@ function App(){
       <div>
          <input className="AddTask" type="text" placeholder="Adicione nova tarefa" />
          <button className="AddTaskButton">
-             Adicionar tarefa +
+             Adicionar
          </button>
 
       </div>
